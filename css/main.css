@@ -26,7 +26,15 @@ a.gnb_button:hover { background-color: #3eb7fe; color: #000; }
 .main_text .title02 .sub_tit02 { position: relative; } 
 .main_text .title03 { width: 100%; display: flex; justify-content: flex-end; padding-top: 20px; } 
 .main_text .main_text_link { transform: translate(0, 90px); position: relative; display: flex; justify-content: flex-end; font-size: 13px; } 
-.main_text .main_text_link img { margin-left: 11px; } 
+.main_text .main_text_link img { margin-left: 11px;  animation: scroll 1s infinite; } 
+
+@keyframes scroll {
+    0% {transform: translate(-50%, -30%); opacity: 0;}
+    30% {transform: translate(-50%, 15%); opacity: 1;}
+    60% {transform: translate(-50%, -30%); opacity: 0;}
+    100% {transform: translate(-50%, -30%); opacity: 0;}
+  }
+
 
 .cmbtn::before { content: ""; display: block; position: absolute; top: 0; width: 0%; height: 100%; background-color: #000; transition: width 0.4s ease-in-out; } 
 .cmbtn.on::before { left: 0; width: 100%; } 
@@ -80,8 +88,8 @@ div.marquee_ani { animation: slidemarquee 25s linear infinite; }
 
 div.marquee_wrap2 { max-width: 100%; } 
 div.marquee_slide2 { width: 5700px; display: flex; } 
-div.marquee_slide2 div.marquee_box2 { display: flex; align-items: center; width: 2850px; height: 100px; margin-bottom: 35px; } 
-div.marquee_slide2 > div.marquee_box2 > div.marquee_cont2 { width: 1500px; font-size: 30px; font-weight: 900; letter-spacing: -1px; } 
+/* div.marquee_slide2 div.marquee_box2 { display: flex; align-items: center; width: 2850px; height: 100px; margin-bottom: 35px; }  */
+div.marquee_slide2 > div.marquee_box2 > div.marquee_cont2 { width: 2835px; font-size: 30px; font-weight: 900; letter-spacing: -1px; } 
 div.marquee_ani2 { animation: slidemarquee2 15s linear infinite; } 
 @keyframes slidemarquee2 { 
  0% { transform: translateX(0); } 
