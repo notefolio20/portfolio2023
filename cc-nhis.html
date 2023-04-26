@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>jihwa's Portfolio 2023</title>
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/png">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/animate.css">
+    <script src="./js/rellax.min.js"></script>
+    <script src="./js/smoothScroll20.js"></script>
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/jquery-ui.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/wow.js"></script>
+    <script>
+      'use strict';
+      new WOW().init();
+    </script>
+  </head>
+
+  <body>
+  <div id="top">
+      <header>
+        <nav>
+          <div class="gnb">
+            <h1><a href="index.html">Seo jihwa</a></h1>
+          </div>
+          <a href="https://bit.ly/3N8o2rP" target="_blank" class="gnb_button pc">
+            <div>About</div>
+          </a>
+        </nav>
+      </header>
+    </div>
+    <section class="wrapper dark">
+      <div class="main_text">
+        <div class="title01 animated wow fadeInUp delay-02s">
+          <h2>Seojihwa</h2>
+        </div>
+        <div class="title02">
+          <div class="sub_tit01 animated wow fadeInUp delay-04s">
+            <h2>uxui</h2>
+          </div>
+          <div class="line">line</div>
+          <div class="sub_tit02 animated wow fadeInUp delay-06s">
+            <h2>Design</h2>
+          </div>
+        </div>
+        <div class="title03 animated wow fadeInUp delay-08s">
+          <h2>Portfolio 2023</h2>
+        </div>
+        <div class="main_text_link"> scroll down <img src="./images/down_icon.svg" alt="down">
+        </div>
+      </div>
+    </section>
+    <div class="cc01 animated wow fadeInUp delay-02s">
+      <div class="text-left">
+      <p>Clone</p>
+      <p class="animated wow fadeInUp delay-02s">Coding</p>
+      </div>
+      <div class="text-cont">
+        <ul>
+          <li><span class="item">title</span> 국민건강보험공단 클론코딩 </li>
+          <li><span class="item">type</span> PC & Mobile (Responsive) </li>
+          <li><span class="item">code</span><a href="https://github.com/notefolio20/nhis.git" target="_blank" class="link-git"> go github >></a></li>
+          <li>
+            <span class="item">url</span> 
+            <a href="https://notefolio20.github.io/nhis/index.html" target="_blank" class="link-page" >main</a>
+            <a href="https://notefolio20.github.io/nhis/sub-minwon-visitor.html" target="_blank" class="link-page" >sub01</a>
+            <a href="https://notefolio20.github.io/nhis/sub-minwon.html" target="_blank" class="link-page" >sub02</a>
+            <a href="https://notefolio20.github.io/nhis/sub-healthin.html" target="_blank" class="link-page" >sub03</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div id="info">
+      <footer class="info inbox">
+        <h2>Thank you!</h2>
+        <p>Seo jihwa’s Portfolio 2023</p>
+      </footer>
+    </div>
+    <script>
+      'use strict';
+      $('.service_list').on('mouseenter', function() {
+        let index = $(this).index() + 1;
+        console.log(index); 
+        $('.service_inerview').removeClass('on');
+        $('.service_video_action').removeClass('on');
+        $(this).parent().addClass('on');
+        $('.service_video_list > div:nth-child(' + index + ')').addClass('on');
+      });
+      $('.service_list').on('mouseleave', function() {
+        $('.service_inerview').removeClass('on');
+        $('.service_video_action').removeClass('on');
+      });
+    </script>
+  </body>
+</html>
