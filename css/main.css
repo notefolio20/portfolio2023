@@ -106,7 +106,7 @@ section.service .service_wrap .service_inerview { display: flex; overflow: hidde
 .service_list:hover .titlt_arrow { border-color: transparent; background-color: #000; transition: 0.5s; } 
 .service_list:hover .titlt_arrow img:first-child { position: absolute; transform: rotate(-45deg); top: 29%; left: 33%; } 
 .service_list:hover .titlt_arrow img:last-child { left: 200%; } 
-.service_list:hover .sevice_text a .service_desc_wrap { bottom: 50px; opacity: 1; transition: 0.5s; } 
+.service_list:hover .sevice_text a .service_desc_wrap { bottom: 50px; opacity: 1; transition: 0.5s;} 
 .service_list:hover .titlt_arrow img { left: 120%; transition: 0.3s; } 
 .service_list .sevice_text a { position: relative; overflow: hidden; display: flex; width: 25vw; height: 100%; flex-direction: column; justify-content: center; align-items: center; border-right: 1px solid #979797; } 
 .service_list .sevice_text a .service_tit { display: flex; justify-content: center; flex-direction: column; width: 100%; flex: 1; } 
@@ -165,8 +165,9 @@ section.service .service_wrap .service_inerview { display: flex; overflow: hidde
 .btn-back {font-size: 15px; font-weight: 700; color: #222; margin: 270px 0 0 150px;}
 .btn-back img {width: 17px; vertical-align: top;}
 .text-left { text-align: left; font-size: 80px; font-weight: 900;} 
-p:first-child {padding-left: 60px;}
+.text-left p:first-child {padding-left: 60px;}
 .text-cont {margin-top: 150px; width: 650px; font-weight: 500;}
 .text-cont > ul { display: flex; flex-direction: column; margin-left: 190px;}
 .text-cont > ul span.item {display: inline-block; font-size: 18px; font-weight: 800; width: 70px; height: 50px;}
 .link-page {width: 80px; height: 32px; padding: 8px 15px; margin-right: 5px; background-color: #f1f1f1; color: #000; font-size: 13px; font-weight: 400; border-radius: 50px; transition: all 0.3s } 
+
