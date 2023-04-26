@@ -160,8 +160,10 @@ section.service .service_wrap .service_inerview { display: flex; overflow: hidde
 
 
 /* sub -------------------------- */
-.cc01 { display: flex; margin: -50px auto; width: 1000px; height: 520px; padding-top: 130px; background: url(../images/bg-coding01.png) no-repeat; background-size: 30%; background-position: 150px 0;} 
-.cc02 { display: flex; margin: -50px auto; width: 1000px; height: 520px; padding-top: 130px; background: url(../images/bg-coding02.png) no-repeat; background-size: 30%; background-position: 150px 0;} 
+.cc01 { display: flex; margin: -50px auto; width: 1000px; height: 520px; padding-top: 130px; background: url(../images/bg-coding001.png) no-repeat; background-size: 37%; background-position: 150px 0;} 
+.cc02 { display: flex; margin: -50px auto; width: 1000px; height: 520px; padding-top: 130px; background: url(../images/bg-coding002.png) no-repeat; background-size: 37%; background-position: 150px 0;} 
+.btn-back {font-size: 15px; font-weight: 700; color: #222; margin: 270px 0 0 150px;}
+.btn-back img {width: 17px; vertical-align: top;}
 .text-left { text-align: left; font-size: 80px; font-weight: 900;} 
 p:first-child {padding-left: 60px;}
 .text-cont {margin-top: 150px; width: 650px; font-weight: 500;}
