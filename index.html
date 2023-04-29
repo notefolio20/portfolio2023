@@ -223,17 +223,17 @@
               </a>
             </div>
           </div>
-          <div class="service_video_list pc">
-            <div class="service_video_action">
+          <div class="service_thumb_list pc">
+            <div class="service_thumb_action">
               <img src="./images/bg-sports.jpg" alt="">
             </div>
-            <div class="service_video_action">
+            <div class="service_thumb_action">
               <img src="./images/bg-con.jpg" alt="">
             </div>
-            <div class="service_video_action">
+            <div class="service_thumb_action">
               <img src="./images/bg-atents.jpg" alt="">
             </div>
-            <div class="service_video_action liu_wrap">
+            <div class="service_thumb_action liu_wrap">
               <img src="./images/circle-2023.png" alt="">
             </div>
           </div>
@@ -276,13 +276,13 @@
         let index = $(this).index() + 1;
         console.log(index); 
         $('.service_inerview').removeClass('on');
-        $('.service_video_action').removeClass('on');
+        $('.service_thumb_action').removeClass('on');
         $(this).parent().addClass('on');
-        $('.service_video_list > div:nth-child(' + index + ')').addClass('on');
+        $('.service_thumb_list > div:nth-child(' + index + ')').addClass('on');
       });
       $('.service_list').on('mouseleave', function() {
         $('.service_inerview').removeClass('on');
-        $('.service_video_action').removeClass('on');
+        $('.service_thumb_action').removeClass('on');
       });
     </script>
   </body>
